@@ -1,0 +1,1038 @@
+@import url("normalize.min.css");
+@import url("fonts.css");
+
+
+html,
+body {
+    height: 120%;
+    /*float: left;*/
+    font-family: Helvetica, Arial, sans-serif;
+}
+p{
+    line-height: 1.8;
+
+}
+
+#navbar {
+    background-color: #fff;
+    position: fixed;
+    text-align: center;
+    padding: 0 20px;
+    top: -100px;
+    width: 100%;
+    /*height: 100px;*/
+    transition: top 0.5s;
+    z-index: 10;
+    /*box-shadow: ;*/
+
+
+}
+
+#navbar a img {
+    float: left;
+
+    width: 80px;
+    height: 80px;
+}
+
+.social a {
+    float: right;
+    padding: 30px 2px;
+    color: black;
+
+}
+
+
+.social .fa-facebook:hover {
+    color: white;
+    background-color: #3f51b5;
+
+
+}
+
+.social .fa-facebook {
+    width: 30px;
+    height: 30px;
+    padding: 5px 5px;
+    border-radius: 50%;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+
+}
+
+.social .fa-x-twitter:hover {
+    color: white;
+    background-color: #d7cad1;
+
+}
+
+.social .fa-x-twitter {
+    width: 30px;
+    height: 30px;
+    padding: 5px 5px;
+    border-radius: 50%;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+
+}
+
+
+
+
+.social .fa-dribbble:hover {
+    color: white;
+    background-color: deeppink;
+
+}
+
+.social .fa-dribbble {
+    width: 30px;
+    height: 30px;
+    padding: 5px 5px;
+    border-radius: 50%;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+
+}
+
+
+
+.social span {
+    float: right;
+    padding: 25px 40px;
+
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: center;
+    opacity: .9;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+
+
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+ .slide-box{
+     position: relative;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     /*background-color: red;*/
+     width: 100%;
+     height: ;100%
+
+ }
+
+
+
+
+.litte-font {
+    font-size: 16px;
+}
+
+.bg-images {
+    width: 50%;
+    height: 100%;
+
+
+}
+
+
+.img-1 {
+
+
+    float: left;
+    background: url("../images/freelancer-girl.jpg") no-repeat center center / cover;
+
+
+}
+
+.image{
+    /*background-color: red;*/
+    width: 80px;
+    height: 80px;
+margin:0 15px ;
+    background: url("../images/logo_freelance_white.png") no-repeat center center / cover;
+
+}
+
+
+.rrr a .nav-btn{
+    cursor: pointer;
+    font-size: 13px;
+    border: 2px solid #c3aca1;
+    background-color: #c3aca1;
+    text-decoration: none;
+    border-radius: 100px;
+    padding: 15px 30px 13px;
+    /*margin-top: 30px;*/
+    position: relative;
+
+}
+
+
+.img-2 {
+    float: right;
+    /*width: 50%;*/
+    /*height: 100%;*/
+    background: url("../images/sketches.jpg") no-repeat center center / cover fixed;
+
+
+
+}
+
+
+
+.img-3 {
+    /*width: 50%;*/
+    /*height: 100%;*/
+    float: left;
+    background: url("../images/laptop-hands.jpg") no-repeat center center / cover fixed;
+
+
+
+}
+
+
+.img-4 {
+    float: right;
+    /*width: 50%;*/
+    /*height: 100%;*/
+    background: url("../images/freelance-girl-relax.jpg") no-repeat center center / cover fixed;
+
+}
+
+
+
+
+.img-5 {
+
+    /*width: 50%;*/
+    /*height: 100%;*/
+    float: left;
+    background: url("../images/tochscreen.jpg") no-repeat center center / cover fixed;
+}
+
+.product-wrapper {
+    /*float: right;*/
+    background-color: #c3aca1;
+    width: 450px;
+    height: 600px;
+    position: relative;
+    display: inline-block;
+
+}
+
+.product-holder {
+    width: 50%;
+    height: 33.3%;
+    position: relative;
+    float: left;
+    /*object-fit: cover;*/
+    padding: 10px;
+}
+
+.product-holder figure {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 5px #333;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.product-holder figure > img {
+    width: 100%;
+    height: 100%;
+    /*  object-fit: cover; */
+    display: block;
+    transition: all 300ms ease;
+    opacity: 0.7;
+
+}
+
+
+
+
+
+figure:hover > img {
+    transform: scale(1.2);
+    opacity: 1;
+
+}
+
+
+
+
+
+
+
+
+.wrapper{
+    position: relative;
+    display: inline-block;
+
+width: 100%;
+    height: 100%;
+    background-color: inherit;
+    padding: 20px 40px;
+
+}
+.holder
+{
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+    background-color: inherit;
+    float: left;
+
+}
+.holder i {
+    position: relative;
+    font-size: 50px;
+    margin: 15px;
+}
+
+
+hr {
+    position: relative;
+    border: 1px solid;
+    width: 10%;
+    left: 45%;
+
+}
+.ad-boxs{
+    float: left;
+    /*background-color: red;*/
+    position: relative;
+
+
+
+}
+.ad-box{
+    width: 100%;
+
+    float: left;
+    position: relative;
+    /*background-color: wheat;*/
+
+}
+
+.font1 {
+    font-size: 24px;
+    color: black;
+    padding: 0 70px;
+
+}
+
+.font2 {
+    color: white;
+    padding: 0 70px;
+    display: block;
+
+
+}
+
+.font3 {
+    color: #d3c3bc;
+
+}
+
+
+.even-pragraph1 h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Pacifico;
+    font-weight: 500px;
+    font-size: 60px;
+
+}
+
+
+
+.progress {
+    background-color: #fff;
+    border: 5px solid #c3aca1;
+    width: 550px;
+    height: 250px;
+    position: relative;
+    display: inline-block;
+
+
+}
+
+
+.myProgress {
+    width: 80%;
+    background-color: #ddd;
+
+    margin-bottom: 20px;
+
+}
+
+
+.progress > .box {
+    /*border: 1px solid wheat;*/
+    width: 100%;
+    height: 100%;
+    display: block;
+    /*padding: 0 ;*/
+    position: relative;
+
+}
+
+
+
+span {
+    margin-left: 200px;
+    float: right;
+
+}
+
+
+
+
+.myProgress {
+    width: 80%;
+    background-color: #ddd;
+
+    margin-bottom: 20px;
+
+}
+
+
+.progress > .box {
+    /*border: 1px solid wheat;*/
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 60px 60px;
+    position: relative;
+
+}
+
+
+
+span {
+    margin-left: 200px;
+    float: right;
+
+}
+
+
+
+
+
+
+
+.myBar1 {
+    width: 100%;
+    height: 10px;
+    background-color: #191c1b;
+}
+
+.myBar2 {
+    width: 90%;
+    height: 10px;
+    background-color: #191c1b;
+
+}
+
+
+
+.myBar3 {
+    width: 80%;
+    height: 10px;
+    background-color: #191c1b;
+
+}
+
+
+.progress > .box {
+    /*border: 1px solid wheat;*/
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 25px 25px;
+    position: relative;
+
+}
+
+
+
+.header-progress {
+    color: black;
+    text-align: left;
+}
+
+
+
+/*.bg-images1{*/
+/*    width: 50%;*/
+/*    height: 100%;*/
+
+
+/*}*/
+
+
+
+.even {
+    height: 100%;
+    text-align: center;
+    background-color: inherit;
+    float: left;
+    width: 50%;
+}
+
+
+a:hover > button {
+    opacity: 0.9;
+
+}
+
+.hr1 {
+    color: black;
+}
+
+
+
+
+.even-pragraph3 p {
+    color: whitesmoke;
+}
+
+
+.even-pragraph3,
+input,
+textarea,
+button {
+    background-color: #85a7ca;
+    color: whitesmoke;
+}
+
+
+input,
+textarea,
+button {
+    background-color: #85a7ca;
+    color: whitesmoke;
+    border: 2px solid white;
+
+}
+
+
+
+.odd {
+    height: 100%;
+    float: left;
+    width: 50%;
+    text-align: center;
+    background-color: #d3c3bc;
+    color: #fff;
+
+}
+
+
+
+
+div:is(h1, h2, h3, h4, h5, h6).rrr,
+hr,
+figure,
+p {
+    /*background: #ff253a;*/
+    margin-bottom: 20px;
+
+}
+
+
+
+
+
+
+.rrr {
+    /*background: inherit;*/
+
+    /*height: 100%;*/
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+
+}
+
+
+
+
+
+.forms {
+
+    display: inline-block;
+
+
+
+}
+
+.form-btn,
+input,
+textarea {
+    padding: 10px;
+    margin: 10px;
+    width: 500px;
+    height: 50px;
+}
+
+textarea {
+    height: 195px;
+}
+
+.form-btn {
+    width: 150px;
+    float: left;
+
+}
+
+.progress {
+    background-color: #fff;
+    border: 5px solid #c3aca1;
+    width: 550px;
+    height: 250px;
+    position: relative;
+    display: inline-block;
+
+
+}
+
+
+form a:hover .form-btn {
+    cursor: pointer;
+    background-color: #a0cdd2;
+    transition: 500ms;
+
+}
+
+
+
+
+.ad-boxs
+{
+    /*background-color: red;*/
+    width: 100%;
+    height: 100%;
+}
+
+ strong
+{
+font-size: 25px;
+}
+
+
+
+
+.ad-box{
+    width: 50%;
+    height: 50%;
+    /*margin-left: 40px;*/
+
+    /*background-color: blue;*/
+    /*border: 1px solid red;*/
+    float: left;
+    position: relative;
+}
+
+.footer {
+    height: 60px;
+    width: 100%;
+    float: left;
+    opacity: 0.5;
+    padding: 20px 30px;
+    font-size: 11px;
+
+}
+
+.footer a:hover {
+    color: black;
+}
+
+.footer > a,
+p {
+    color: #aaaaaa;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.footer .right {
+    float: right;
+    color: #aaaaaa;
+}
+
+
+
+
+
+    @media only screen and (max-width: 1200px) {
+
+        .product-wrapper {
+            /*float: right;*/
+            background-color: #c3aca1;
+            width: 300px;
+            height: 450px;
+            position: relative;
+            display: inline-block;
+
+        }
+
+        .progress {
+            background-color: #fff;
+            border: 5px solid #c3aca1;
+            width: 300px;
+            height: 250px;
+            position: relative;
+            display: inline-block;
+
+
+        }
+
+
+        .myProgress {
+            width: 80%;
+            background-color: #ddd;
+            /*margin-top: 10px;*/
+            margin-bottom: 20px;
+
+        }
+
+
+        .progress > .box {
+            /*border: 1px solid wheat;*/
+            width: 100%;
+            height: 100%;
+            display: block;
+            padding: 25px 25px;
+            position: relative;
+
+        }
+
+        span {
+            margin-left: 200px;
+            float: none;
+
+        }
+
+
+
+        .form-btn,
+        input,
+        textarea {
+            padding: 10px;
+            margin: 10px;
+            width: 300px;
+            height: 50px;
+        }
+
+        textarea {
+            height: 195px;
+        }
+
+        .form-btn {
+            width: 150px;
+            float: left;
+
+        }
+
+    }
+
+
+
+@media only screen and (max-width: 990px) {
+
+
+
+    .image{
+        /*background-color: red;*/
+       display: none;
+
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+        @media only screen and (max-width: 782px) {
+    .img-1,
+    .even,
+    .odd {
+        width: 100%;
+        height: 100%;
+    }
+    section:not(.img-1),
+    .arrow-up {
+
+        display: none;
+    }
+
+
+
+    .product-wrapper {
+        /*float: right;*/
+        background-color: #c3aca1;
+
+
+        width: 450px;
+        height: 650px;
+        position: relative;
+        display: inline-block;
+
+    }
+
+
+    .holder
+    {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        background-color: inherit;
+
+    }
+
+    .holder i {
+        position: relative;
+        font-size: 50px;
+        margin: 15px;
+        display: block;
+    }
+
+
+
+
+
+    .form-btn,
+    input,
+    textarea {
+        padding: 10px;
+        margin: 10px;
+        width: 500px;
+        height: 50px;
+    }
+
+    textarea {
+        height: 195px;
+    }
+
+    .form-btn {
+        width: 150px;
+        float: left;
+
+    }
+
+    .progress {
+        background-color: #fff;
+        border: 5px solid #c3aca1;
+        width: 550px;
+        height: 250px;
+        position: relative;
+        display: inline-block;
+
+
+    }
+
+
+    .myProgress {
+        width: 80%;
+        background-color: #ddd;
+
+        margin-bottom: 20px;
+
+    }
+
+
+    .progress > .box {
+        /*border: 1px solid wheat;*/
+        width: 100%;
+        height: 100%;
+        display: block;
+        padding: 60px 60px ;
+        position: relative;
+
+    }
+
+
+
+    span {
+        margin-left: 200px;
+        float: right;
+
+    }
+
+
+
+}
+
+@media only screen and (max-width: 576px) {
+    #navbar .social a {
+
+        display: none;
+
+    }
+
+    .product-wrapper {
+        /*float: right;*/
+        background-color: #c3aca1;
+        width: 300px;
+        height: 450px;
+        position: relative;
+        display: inline-block;
+
+    }
+
+
+    .social span {
+        float: right;
+        padding: 25px 10px;
+
+    }
+
+    .progress {
+        background-color: #fff;
+        border: 5px solid #c3aca1;
+        width: 300px;
+        height: 250px;
+        position: relative;
+        display: inline-block;
+
+
+    }
+
+
+    .myProgress {
+        width: 80%;
+        background-color: #ddd;
+        /*margin-top: 10px;*/
+        margin-bottom: 20px;
+
+    }
+
+
+    .progress > .box {
+        /*border: 1px solid wheat;*/
+        width: 100%;
+        height: 100%;
+        display: block;
+        padding: 25px 25px;
+        position: relative;
+
+    }
+
+    span {
+        margin-left: 200px;
+        float: none;
+
+    }
+
+
+
+
+
+
+
+
+
+    .form-btn,
+    input,
+    textarea {
+        padding: 10px;
+        margin: 10px;
+        width: 300px;
+        height: 50px;
+    }
+
+    textarea {
+        height: 195px;
+    }
+
+    .form-btn {
+        width: 150px;
+        float: left;
+
+    }
+
+
+
+}
+
+/*loding*/
+/* Safari */
+/*@-webkit-keyframes spin {*/
+/*    0% {*/
+/*        -webkit-transform: rotate(0deg);*/
+/*    }*/
+
+/*    100% {*/
+/*        -webkit-transform: rotate(360deg);*/
+/*    }*/
+/*}*/
+
+/*@keyframes spin {*/
+/*    0% {*/
+/*        transform: rotate(0deg);*/
+/*    }*/
+
+/*    100% {*/
+/*        transform: rotate(360deg);*/
+/*    }*/
+/*}*/
